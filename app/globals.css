@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+
+.table-head {
+    @apply px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase;
+}
+
+.table-row > *{
+    @apply px-6 py-4 text-sm text-gray-800 ;
+}
